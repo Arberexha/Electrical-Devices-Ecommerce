@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="Cart.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="../Index.html">Electrical Devices</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="../Index.html">Home</a></li>
+        <li><a href="../Products/Products.html">Products</a></li>
+        <li><a href="../About-Us/About-Us.html">About Us</a></li>
+        <li><a href="../Log-In/Log-in.html">Log In</a></li>
+        <li><a href="../AddToCart/Cart.html">🛒</a></li>
+      </ul>
+    </nav>
+
+    <div class="cart-container">
+      <h2>Your Shopping Cart</h2>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <h3>Total: <span id="cart-total-price">0$</span></h3>
+    </div>
+      <button class="btn-remove-all">Remove All</button>
+
+    </div>
+
+    <footer class="footer">
+      <div class="container-3">
+        <div class="footer-left">
+          <h3>Electrical Devices</h3>
+          <p>Your trusted source for quality electrical products.</p>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="Products/Products.html">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="Log-In/Log-in.html">Log In</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-center">
+          <h3>Contact Us</h3>
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p>123 Main Street, City, Country</p>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+1 234 567890</p>
+          </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p>info@electricaldevices.com</p>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <h3>Follow Us</h3>
+          <div class="footer-icons">
+            <a href="https://www.facebook.com/profile.php?id=100070781801499"><i class="fa-brands fa-facebook" style="color: white"></i></a>
+            <a href="https://www.instagram.com/electrical.devices/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/AspireElectrica"><i class="fa-brands fa-twitter"></i></a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 Electrical Devices. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="Cart.js"></script>
+  </body>
+</html>

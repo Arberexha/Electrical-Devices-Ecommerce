@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f0f0f0;
+  line-height: 1.6;
+  height: 100vh;
+
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  flex-wrap: wrap; 
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin: 5px 10px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #464141;
+  transition: ease-in-out 0.5s;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    
+}
+.login-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../Images/MainImage.webp');
+  background-repeat: repeat;
+  background-position: center;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #194675;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.SignUpbtn {
+    width: auto;
+    background-color: #28a745;
+    margin-top: 10px;
+}
+
+.SignUpbtn:hover {
+    background-color: #218838;
+}
+
+.login-container p {
+    margin-top: 20px;
+    color: #333;
+}
+
+.login-container p button {
+    background: none;
+    color: #007BFF;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+    padding: 0;
+}
+
+.login-container p button:hover {
+    color: #0056b3;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left, .footer-center, .footer-right {
+  flex: 1;
+}
+
+.footer-left h3, .footer-center h3, .footer-right h3 {
+  color: #fff;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-center div {
+  margin-bottom: 20px;
+}
+
+.footer-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  
+}
+
+.footer-icons a:hover {
+  
+ background-color: rgb(144, 144, 144);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  background-color: #222;
+}
+
+.footer-bottom p {
+  margin: 0;
+  padding-bottom: 15px;
+  color: #ccc;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.footer-links a:hover {
+  background-color: #555;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
